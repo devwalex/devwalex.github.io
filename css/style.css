@@ -1,0 +1,346 @@
+*{
+	font-family: 'Raleway', sans-serif;
+}
+header{
+	background: url('../img/header-background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a{
+    background-color: transparent;
+      color: #fff;
+      padding-bottom: 5px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+    background-color: transparent;
+    padding-bottom: 5px;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    background-color: transparent;
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active{
+    color: #fff;
+    border-bottom: 2px solid white;
+
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand {
+    color: #fff;
+    background-color: transparent;
+    font-weight: 700;
+
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f44;
+}
+.header-text{
+	margin-top: 200px;
+	margin-left: 250px;
+}
+ .header-text-title{
+	font-size: 70px;
+	font-weight: bolder;
+	color: #fff;
+}
+ .header-text-desc{
+	font-size: 30px;
+	color: #fff;
+}
+.header-button{
+	text-align: center;
+	margin-top: 40px;
+}
+.header-button .btn{
+	font-size: 40px;
+	color: #fff;
+	background: transparent;
+	border-radius: 20px;
+	border: 2px solid #fff;
+	margin-right: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.header-button .btn:hover {
+	color: #FF4444;
+	background: #fff;
+}
+#about{
+	text-align: center;
+	padding-top: 80px;
+}
+#about h1{
+	font-weight: bold;
+	color: #FF4444;
+}
+.about-image img{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+.about-desc p{
+	margin-top: 20px;
+	font-size: 20px;
+}
+#skills{
+	text-align: center;
+	background: #FF4444;
+	margin-top: 100px;
+	padding-top: 30px;
+	padding-bottom: 150px;
+}
+#skills h1{
+	font-weight: bold;
+	color: #fff;
+	padding-top: 30px;
+}
+.skills-desc p{
+	margin-top: 20px;
+}
+
+.top-nav-collapse {
+  padding: 0;
+  background: rgba(255, 68, 68, 0.7);
+}
+#projects{
+	text-align: center;
+	padding-top: 80px;
+}
+#projects h1{
+	font-weight: bold;
+	color: #FF4444;
+}
+.projects-desc {
+	margin-top: 20px;
+}
+#testimonials{
+	text-align: center;
+	padding-top: 80px;
+}
+#testimonials h1{
+	font-weight: bold;
+	color: #FF4444;
+}
+.testimonials-desc {
+	margin-top: 20px;
+	background: url('../img/testbg.jpg');
+	padding-bottom: 150px;
+	background-attachment: fixed;
+}
+.box{
+    width: 0;
+    height: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 19px 18px 0 18px;
+    border-color: #ff4444 transparent transparent transparent;
+}
+
+.talk{
+    width: 100%;
+    background-color: #FF4444;
+    padding: 20px;
+    text-align: center;
+    margin-right: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+div.credit>img{
+    border-radius: 100%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+}
+div.credit-name>h2{
+    margin-top: 20px;
+    color: #FF4444;
+}
+.carousel-indicators {
+    margin-bottom: -50px;
+    padding-bottom: 10px;
+}
+
+.carousel-indicators .active {
+    background-color: #FF4444;
+    border-color: #FF4444;
+}
+.carousel-indicators li {
+    border: 2px solid #FF4444;
+}
+
+#contact{
+	background: url(../img/contactbg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	margin-top: -60px;
+	padding-top: 50px;
+
+}
+#contact h1{
+	font-weight: bold;
+	color: #fff;
+	padding-top: 30px;
+	text-align: center;
+	margin-bottom: 100px;
+
+}
+.address{
+	border-left: 3px solid #FFFFFF;
+	padding: 20px;
+}
+.info {
+    border-right: 3px solid #FFFFFF;
+    padding: 20px;
+    float: right;
+    text-align: right;
+
+}
+.col-md-3 h3{
+	color: #FFFFFF;
+}
+.col-md-9{
+	font-size: 20px;
+}
+form input{
+	border-radius: 0;
+	border: none;
+	width: 90%;
+	font-size: 30px;
+	color: #FF4444;
+	padding-left: 15px;
+	margin-top: 10px;
+	background: #FFFFFF;
+}
+form textarea{
+	border-radius: 0;
+	border: none;
+	width: 90%;
+	font-size: 30px;
+	color: #FF4444;
+	padding-left: 15px;
+	margin-top: 10px;
+	background: #FFFFFF;
+}
+input[type="submit"]:hover{
+	background: #E93434;
+	color: #FFFFFF;
+}
+.social-icon ul{
+	list-style-type: none;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.social-icon ul li{
+	display: inline;
+	background: #FFFFFF;
+	padding: 20px;
+	border-radius: 15%;
+	color: #FF4444;
+	margin-right: 10px;
+
+}
+.social-icon ul li a{
+	color: #FF4444;
+}
+.social-icon ul li a:hover{
+	color: #333333;
+}
+footer{
+	background: #E93434;
+	padding: 10px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+.progress-text{
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: -20px;
+}
+.progress{
+	margin-top: 30px;
+}
+@media (max-width: 786px){
+		header{
+		background: url('../img/header-background.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		/*height: 100vh;*/
+	}
+	.header-text{
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	 .header-text-title{
+		font-size: 40px;
+		font-weight: bolder;
+		color: #fff;
+		margin-top: 200px;
+	}
+	 .header-text-desc{
+		font-size: 20px;
+		color: #fff;
+	}
+	.header-button{
+		text-align: center;
+		margin-top: 40px;
+	}
+	.header-button .btn{
+		font-size: 20px;
+		border: 2px solid #fff;
+		padding-right: 20px;
+		padding-left: 20px;
+		margin-top: 20px;
+	}
+	.owl-carousel .item img {
+		height: 100px;
+	}
+
+	#contact{
+		height: auto;
+		margin-top: -100px;
+	}
+
+	.social-icon ul li{
+		margin-right: 1px;
+		padding: 10px;
+	}
+	.social-icon ul{
+		list-style-type: none;
+		margin-top: 30px;
+		margin-bottom: 50px;
+		margin-left: -40px;
+	}
+}
+@media (min-width: 786px){
+	#contact{
+		height: auto;
+
+	}
+
+	.social-icon ul li{
+		margin-right: 1px;
+		padding: 20px;
+	}
+	.social-icon ul{
+		list-style-type: none;
+		margin-top: 30px;
+		margin-bottom: 50px;
+		margin-left: -40px;
+	}
+}
