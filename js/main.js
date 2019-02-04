@@ -22,3 +22,15 @@
       event.preventDefault();
     }
   });
+
+  $('.header-button a').bind('click', function(event) {
+    var $anchor = $(this);
+    var button = $($anchor.attr('href'));
+    if (button.length) {
+      $('html, body').stop().animate({
+        scrollTop: $($anchor.attr('href')).offset().top
+      }, 1500, 'easeInOutExpo');
+
+      event.preventDefault();
+    }
+  });
